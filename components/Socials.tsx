@@ -9,7 +9,7 @@ const Socials = () => {
       <h3 className="text-2xl font-semibold mt-8 pb-4">Find me on</h3>
       <div className="flex items-center space-x-3">
         <div className="flex items-center gap-2">
-          <Link href="https://github.com/Sudhir-Rai07" className="flex gap-2 items-center text-sm text-foreground/80 hover:underline hover:text-accent transition duration-200" target="_blank"><FaGithub size={20} /> GitHub</Link>
+          <Link href="https://github.com/Sudhir-rai07" className="flex gap-2 items-center text-sm text-foreground/80 hover:underline hover:text-accent transition duration-200" target="_blank"><FaGithub size={20} /> GitHub</Link>
         </div>
         <div className="flex items-center gap-2">
           <Link href="https://www.linkedin.com/in/sudhirrai0/" className="flex gap-2 items-center text-sm text-foreground/80 hover:underline hover:text-accent transition duration-200" target="_blank"><FiLinkedin size={20} /> LinkedIn</Link>

@@ -30,7 +30,7 @@ const Footer = () => {
                 {/* <div className="mt-6 flex flex-col gap-3 border-t border-foreground/10 pt-4 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm text-foreground/70">© {currentYear} Sudhir R. All rights reserved.</p>
           <div className="flex items-center gap-4 text-sm">
-            <Link href="https://github.com/Sudhir-Rai07" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-accent transition-colors duration-200">GitHub</Link>
+            <Link href="https://github.com/Sudhir-rai07" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-accent transition-colors duration-200">GitHub</Link>
             <Link href="https://www.linkedin.com/in/sudhirrai0/" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-accent transition-colors duration-200">LinkedIn</Link>
             <Link href="https://x.com/sudhirrai0" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-accent transition-colors duration-200">X</Link>
           </div>
