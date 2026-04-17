@@ -26,7 +26,7 @@ const page = () => {
           <div className="h-8 w-8 shrink-0 rounded-full bg-accent/10 flex items-center justify-center">
             <Download className="text-accent" size={15} />
           </div>
-          <a href="/Sudhir_R.pdf" download className="text-sm leading-none font-medium text-accent hover:underline">
+          <a href="/Sudhir_R_Resume.docx" download="Sudhir_R_Resume.docx" className="text-sm leading-none font-medium text-accent hover:underline">
             Resume
           </a>
         </div>
