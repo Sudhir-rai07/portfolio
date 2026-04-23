@@ -1,29 +1,6 @@
+import { experienceData } from '@/lib/data'
 import Image from 'next/image'
-import { title } from 'process'
 
-const experienceData = [
-    {
-        title: 'Windows Server Administrator',
-        company: 'Wipro',
-        location: 'Coimbatore',
-        duration: 'Sep 2025 - Present',
-        description: 'Server administrator with hands on experience in managing and maintaining Windows Servers. Monitoring, Troubleshooting windows server performance. Experience in Active Directory, Group Policy, DNS, DHCP, and other Windows Server technologies.'
-    },
-    {
-        title: 'Backend Developer',
-        company: 'Evenza',
-        location: 'Remote',
-        duration: 'Mar 2025 - Aug 2025',
-        description: 'Backend developer with experience in building and maintaining web applications using Node.js, Express, and PostgreSQL. Worked on developing RESTful APIs, database design, and server-side logic implementation.'
-    },
-    {
-        title: 'Full Stack Developer',
-        company: '5ireChain',
-        location: 'Remote',
-        duration: 'Dec 2024 - Feb 2025',
-        description: 'Full stack developer with experience in building web applications using React, Next.js, Node.js, and PostgreSQL. Worked on developing user interfaces, server-side logic, and database management.'
-    }
-]
 const WorkHistory = () => {
     return (
         <div id='experience'>

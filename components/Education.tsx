@@ -1,22 +1,6 @@
+import { educationData } from '@/lib/data'
 import Image from 'next/image'
 
-const educationData = [
-    {
-        degree: 'Master of Technology',
-        institution: 'BiTS Pilani',
-        location: 'Coimbatore',
-        duration: 'Mar 2026 - Present',
-        major: 'Computer System and Infrastructure'
-    },
-    {
-        degree: 'Bachelor of Computer Applications',
-        institution: 'CIMAGE',
-        location: 'Patna',
-        duration: 'July 2022 - May 2025',
-        major: 'Computer Applications'
-    }
-
-]
 
 const Education = () => {
     return (

@@ -1,8 +1,6 @@
+import { SkillsAr } from '@/lib/data'
 import Image from 'next/image'
 
-const SkillsAr = [
-    "AWS", "React", "Next.js", "Node.js", "Express", "PostgreSQL", "MongoDB", "TypeScript", "JavaScript", "Python", "Docker", "REST APIs", "Git", "GitHub", "Linux"
-]
 
 const Skills = () => {
   return (
